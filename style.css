@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+:root{
+    --primary-color: #BE185D;
+    --secondary-color: #FBCFE8;
+}
+
+body{
+    font-family: 'Salsa', cursive;
+    background-color: var(--secondary-color);
+    /* display: flex; */
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+button{
+    width: 8rem;
+    height: 2rem;
+    font-family: 'Salsa', cursive;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+
+#dob{
+    background-color: transparent;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    border: 1px var(--primary-color) solid;
+    height: 2rem;
+}
